@@ -1,0 +1,104 @@
+@import "reset.css";
+
+body{
+    height:960px;
+}
+header{
+    width:100%;
+    height:100px;
+    size: 20px;
+    display: block;
+    display: flex;
+}
+.header_left{
+    width:20%;
+    height: 100px;
+    display:inline-block;
+    float: left;
+}
+.header_mid{
+    width: 60%;
+    height:100px;
+    display: inline-block;
+    float:left;
+}
+.header_right>audio{
+    width:20%;
+    height:100px;
+    size: 10%;
+}
+
+.box_text{
+    display:inline-block;
+    left:4%;
+    padding:10px;
+    background-color:white;
+    position: absolute;
+    top:80px;
+}
+.box{
+    width:19%;
+    height:760px;
+    float:left;
+    position: relative;
+
+}
+
+.main_right{
+    height:860px;
+    width:80%;
+    float:right;
+}
+
+.box > ul{
+	position:absolute;
+	top:130px;
+	left:2px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid plum;
+    
+}
+.box > ul > li{
+    position: relative;
+}
+.box > ul > li:hover > ul{
+	display:block;
+}
+ul>li>a{
+	display:block;
+	width:140px;
+	height:60px;
+	line-height: 50px;
+	background-color:rgba(0,0,0,0.5);
+	margin:2px;
+    text-decoration: none;
+    color:white;
+}
+ul>li>a:hover{
+	background-color:rgb(15, 24, 23);
+	color:white;
+}
+.box > ul > li > a{
+    border-top: 1px ;
+    border-style: double;
+}
+li > ul{
+	position : absolute;
+    top: 0px;
+	left: 140px;
+	display:none;
+	padding: 5px;
+}
+.right_top>a{
+    position:relative;
+    left:20%;
+    display:block;
+}
+
+.right_bottom>div{
+    display:inline-block;
+    width: 300px;
+    position: relative;
+    left:20%;
+}
